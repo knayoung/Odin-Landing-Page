@@ -129,7 +129,7 @@ ul {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    padding: 48px;
+    padding-top: 48px;
 }
 
 .square-container {
@@ -137,11 +137,12 @@ ul {
     display: flex;
     padding: 50px;
     gap: 20px;
+    flex-wrap: wrap;
 
 
 }
 
-.square {
+.square1, .square2, .square3, .square4 {
     width: 200px;
     height: 200px;
     border: 2px solid #2e64bb;
@@ -149,5 +150,5 @@ ul {
     border-radius: 7%;
 
 
-
 }
+
