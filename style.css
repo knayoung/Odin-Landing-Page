@@ -142,16 +142,6 @@ ul {
 
 }
 
-/* .square1, .square2, .square3, .square4 {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #2e64bb;
-    padding: 8px;
-    border-radius: 7%;
-
-
-}
- */
 
 .box2 {
   
@@ -185,4 +175,20 @@ ul {
     flex: 1;
     max-width: 175px;
     padding: 20px;
+}
+
+
+.section3 {
+    display: flex;
+    background: rgb(202, 202, 202);
+    justify-content: center;
+    height: 40%;
+
+
+}
+
+.box3 {
+
+    display: flex;
+    flex: 1;
 }
